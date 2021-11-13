@@ -1,0 +1,327 @@
+/* Importing google font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+
+/* Start of header section styling */
+
+.header {
+    background: linear-gradient(180deg, rgba(32, 1, 61, 0.253), rgba(32, 1, 61, 0.267)), url("../images/headerImg1.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+#navBar {
+    height: auto;
+    z-index: 999;
+    transition: all 0.3s;
+}
+
+#home,
+#projects,
+#team,
+#pricing,
+#blog,
+#contact {
+    color: white;
+}
+
+#home:hover,
+#projects:hover,
+#team:hover,
+#pricing:hover,
+#blog:hover,
+#contact:hover {
+    color: rgb(248, 248, 129);
+}
+
+.navInfo {
+    height: 100%;
+    position: relative;
+}
+
+.headerButton {
+    background-color: rgba(99, 88, 194, 0.904);
+    color: white;
+    border: solid 1px rgb(68, 107, 238);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerButton:hover {
+    background-color: rgb(248, 248, 129);
+    border: solid 1px rgb(248, 248, 129);
+    color: black;
+}
+
+
+/* End of header section styling */
+
+
+/* Start of welcome section styling */
+
+.welcomeServices {
+    background-color: rgb(70, 132, 190);
+    border: 0px solid rgb(67, 118, 230);
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    text-align: center !important;
+}
+
+.welcomeServices>i {
+    font-size: 35px;
+    color: white;
+}
+
+.welcomeButton {
+    background-color: rgb(58, 14, 218);
+    color: white;
+    border: solid 1px rgb(39, 18, 230);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.welcomeButton:hover {
+    background-color: rgb(78, 182, 125);
+    border: solid 1px rgb(68, 189, 128);
+    color: black;
+}
+
+
+/* End of welcome section styling */
+
+
+/* Start of projects section styling */
+
+.projectsData {
+    background-color: whitesmoke;
+}
+
+.projectsData:hover {
+    background-color: rgb(85, 187, 81);
+}
+
+.projectButton {
+    background-color: white;
+    color: rgb(112, 3, 112);
+    border: solid 1px white;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 5px 30px rgb(220, 220, 220);
+}
+
+.projectButton:hover {
+    background-color: rgb(223, 45, 104);
+    border: solid 1px rgb(238, 11, 11);
+    color: whitesmoke;
+}
+
+
+/* End of projects section styling */
+
+
+/* Start of pricing section styling */
+
+.pricingData {
+    height: auto;
+    border-right: 2px rgba(27, 226, 77, 0.349) solid;
+    border-radius: 3px;
+}
+
+.pricingButton {
+    background-color: rgb(93, 219, 43);
+    color: white;
+    border: solid 1px rgb(24, 219, 112);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pricingButton:hover {
+    background-color: rgb(248, 248, 129);
+    border: solid 1px rgb(248, 248, 129);
+    color: black;
+}
+
+
+/* End of pricing section styling */
+
+
+/* Start of video-projects section styling */
+
+.videoProjects {
+    background-color: rgb(226, 17, 44);
+}
+
+.leftVideoSlide,
+.rightVideoSlide,
+.activeVideo {
+    height: 320px;
+    width: 33vw;
+}
+
+.leftVideoSlide:hover,
+.activeVideo:hover,
+.rightVideoSlide:hover {
+    filter: brightness(70%);
+}
+
+#prev,
+#next {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+/* End of video-projects section styling */
+
+
+/* Start of team section styling */
+
+.teamImage {
+    border: 0px solid transparent;
+    border-radius: 60px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+
+/* End of team section styling */
+
+
+/* Start of zippyLife section styling */
+
+.zippyLife {
+    background-color: whitesmoke;
+}
+
+
+/* End of zippyLife section styling */
+
+
+/* Start of newsletter section styling */
+
+.signUp {
+    background: linear-gradient(5deg, rgba(255, 255, 255, 0.288), rgba(117, 5, 117, 0.575)), url("../images/newsletter.jpg");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.signUpButton {
+    background-color: rgb(112, 3, 112);
+    color: white;
+    border: solid 1px rgb(112, 3, 112);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.signUpButton:hover {
+    background-color: rgb(248, 248, 129);
+    border: solid 1px rgb(248, 248, 129);
+    color: black;
+}
+
+
+/* End of newsletter section styling */
+
+
+/* Start of blog section styling */
+
+.blogImage {
+    height: auto;
+    width: 100%;
+}
+
+.blogButton {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    border: solid 1px rgb(220, 220, 220);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blogButton:hover {
+    background-color: rgb(248, 248, 129);
+    border: solid 1px rgb(248, 248, 129);
+    color: black;
+}
+
+.centerBlog {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+/* End of blog section styling */
+
+
+/* Start of contact section styling */
+
+.contactForm,
+.contactForm>div {
+    background-color: rgb(248, 248, 129);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactForm>div>button {
+    background-color: rgb(112, 3, 112);
+    color: white;
+    border: solid 1px rgb(112, 3, 112);
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contactForm>div>button:hover {
+    background-color: whitesmoke;
+    border: solid 1px rgb(112, 3, 112);
+    color: rgb(112, 3, 112);
+}
+
+.contactData {
+    height: auto;
+    width: 100%;
+}
+
+
+/* End of contact section styling */
